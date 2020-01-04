@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(PrequelDemo-Regular.ttf);
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.topo {
+    background-color: #002b67;
+    color: #fff;
+    width: 100%;
+}
+
+.topo .dark {
+    color: #0069c0 !important;
+}
+
+.topo .light {
+    color: #6ec6ff !important;
+}
+
+.btn-light {
+    color: #fff;
+    background-color: #32bea6 !important;
+    border-color: #32bea6 !important;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 767px) {
+    .imagem img {
+        width: 183px;
+        position: relative;
+        top: 167px;
+        left: 2px;
+    }
+    .banner {
+        margin: 3% 0 0 5%;
+        font-size: 30px;
+        position: absolute;
+    }
+    .banner p {
+        float: right;
+        top: 100px;
+        position: relative;
+        left: 120%;
+        text-align: inherit;
+        font-size: 25px;
+    }
+    .button {
+        position: relative;
+        top: 150px !important;
+        left: 120%!important;
+    }
+    .logo {
+        width: 160px;
+        position: relative;
+        float: left;
+        left: 15px;
+    }
+    #sobre {
+        padding: 5%;
+        font-family: myFirstFont;
+        position: absolute;
+        top: 385px;
+        background: #fff;
+        width: 100%;
+        color: #000;
+        text-align: center;
+        font-size: 10px;
+    }
+    #sobre p {
+        font-size: 20px;
+    }
+    #sobre img {
+        width: 50px;
+        padding: 5%;
+    }
+    #sobre {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+    #quemosomos {
+        background: #fabc3d;
+        position: absolute;
+        top: 552px;
+        width: 100%;
+        padding-top: 5% !important;
+        font-size: 10px;
+    }
+    #quemsomos p {
+        font-family: myFirstFont;
+    }
+    #quemosomos {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+    #saibamais {
+        font-family: myFirstFont;
+        position: absolute;
+        top: 790px;
+        background: rgb(53, 53, 53);
+        width: 100%;
+        color: #e04f5f;
+        text-align: center;
+    }
+    #saibamais {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+    #contatos {
+        font-family: myFirstFont;
+        position: absolute;
+        top: 1072px;
+        background: #002b67;
+        width: 100%;
+        color: #fff;
+        text-align: initial;
+        padding-top: 5% !important;
+        font-size: 14px;
+    }
+    #contatos {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .imagem img {
+        width: 304px;
+        position: relative;
+        top: 84px;
+        left: 50px;
+    }
+    .banner {
+        margin: 3% 0 0 5%;
+        font-size: 30px;
+        position: absolute;
+    }
+    .banner p {
+        text-align: inherit !important;
+        top: 120px;
+        position: relative;
+        left: 100% !important;
+    }
+    .button {
+        position: relative;
+        top: 135px !important;
+        left: 115%!important;
+    }
+    .logo {
+        width: 160px;
+        position: relative;
+        float: left;
+        left: 15px;
+    }
+    #sobre {
+        padding: 5%;
+        font-family: myFirstFont;
+        position: absolute;
+        top: 415px;
+        background: #ccc;
+        width: 100%;
+        color: #000;
+        text-align: center;
+    }
+    #sobre {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+    #sobre p {
+        font-size: 30px;
+    }
+    #sobre img {
+        width: 95px;
+        padding: 5%;
+    }
+    #quemosomos {
+        background: #fabc3d;
+        position: absolute;
+        top: 675px;
+        width: 100%;
+        padding-top: 2% !important;
+    }
+    #quemsomos p {
+        font-family: myFirstFont;
+    }
+    #quemosomos {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+    #saibamais {
+        font-family: myFirstFont;
+        position: absolute;
+        top: 866px;
+        background: rgb(53, 53, 53);
+        width: 100%;
+        color: #e04f5f;
+        text-align: center;
+    }
+    #saibamais {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+    #contatos {
+        position: absolute;
+        top: 1230px;
+        background: #002b67;
+        width: 100%;
+        color: #fff;
+        text-align: initial;
+        padding-top: 5% !important;
+    }
+    #contatos img {
+        width: 36px;
+    }
+    a {
+        color: #fff;
+    }
+    #contatos {
+        -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1400px) {
+    .banner {
+        margin: 3% 0 0 5%;
+        font-size: 30px;
+    }
+    .banner p {
+        float: right;
+        top: 120px;
+        position: relative;
+        left: 0px !important;
+        text-align: inherit;
+    }
+    .button {
+        top: 180px !important;
+        left: 80%!important;
+    }
+    .logo {
+        width: 160px;
+        position: relative;
+        float: left;
+    }
+}
