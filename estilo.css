@@ -125,10 +125,13 @@ body {
         top: 1025px;
         background: #002b67;
         width: 100%;
-        color: #fff;
+        color: #fff !important;
         text-align: initial;
         padding-top: 5% !important;
         font-size: 14px;
+    }
+    #contatos p {
+        color: #fff !important;
     }
     #contatos img {
         width: 18px;
