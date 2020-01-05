@@ -93,7 +93,7 @@ body {
     #quemosomos {
         background: #fabc3d;
         position: absolute;
-        top: 552px;
+        top: 530px;
         width: 100%;
         padding-top: 5% !important;
         font-size: 10px;
@@ -109,7 +109,7 @@ body {
     #saibamais {
         font-family: myFirstFont;
         position: absolute;
-        top: 790px;
+        top: 745px;
         background: rgb(53, 53, 53);
         width: 100%;
         color: #e04f5f;
@@ -121,15 +121,17 @@ body {
         box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
     }
     #contatos {
-        font-family: myFirstFont;
         position: absolute;
-        top: 1072px;
+        top: 1025px;
         background: #002b67;
         width: 100%;
         color: #fff;
         text-align: initial;
         padding-top: 5% !important;
         font-size: 14px;
+    }
+    #contatos img {
+        width: 18px;
     }
     #contatos {
         -webkit-box-shadow: -2px 3px 36px 0px rgba(0, 0, 0, 0.75);
